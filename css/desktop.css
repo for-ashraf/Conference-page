@@ -1,0 +1,332 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  max-width: 1400px;
+}
+
+/* Upperside */
+.upperside {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #272a31;
+  width: 100%;
+  height: 30px;
+  opacity: 0.9;
+}
+
+.upperside-ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.upperside-item:hover {
+  opacity: 0.7;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hamburger-menu-display {
+  display: none;
+}
+
+.desktop-navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #272a31;
+  padding: 5px 5%;
+}
+
+.navbar-ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desktop-nav-link {
+  color: #272a31;
+  font-weight: 600;
+}
+
+.desktop-navbar ul li {
+  margin: 0 1%;
+  white-space: nowrap;
+}
+
+.desktop-navbar ul li:hover {
+  opacity: 0.7;
+}
+
+.main-logo:hover {
+  opacity: 0.7;
+}
+
+.main-logo-img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+}
+
+/* First Section */
+.main-content-headers {
+  width: 80%;
+}
+
+.main-content-headers h2 {
+  font-size: 2.5rem;
+}
+
+.main-content-headers h1 {
+  font-size: 3.5rem;
+}
+
+.year {
+  font-size: 4.5rem;
+  margin-bottom: 5%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 80%;
+  font-size: 1.25rem;
+}
+
+.infos {
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.bg-header-image {
+  width: 80%;
+}
+
+.bg-header-image-rotate {
+  width: 80%;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.location {
+  font-size: 1.25rem;
+}
+
+/* Main Program */
+.program-items {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.program-item {
+  opacity: 0.8;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.item-icon {
+  width: auto;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.item-header {
+  width: auto;
+}
+
+.item-content {
+  width: auto;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.main-btn {
+  display: none;
+}
+
+.see-program {
+  display: block;
+  color: #ec5242;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+.see-program:hover {
+  opacity: 0.7;
+}
+
+/* Speakers */
+.speakers-btn {
+  display: none;
+}
+
+.speakers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Partners */
+.partners-heading {
+  margin-top: 5%;
+}
+
+.partners-list {
+  flex-wrap: nowrap;
+}
+
+.list-item {
+  width: 120px;
+  height: 120px;
+}
+
+/* Contact */
+.footer {
+  margin-top: 0;
+}
+
+.contact-details {
+  justify-content: center;
+  margin: 0;
+}
+
+.contact {
+  margin-top: 0;
+}
+
+.rights {
+  margin-top: 3%;
+}
+
+.ytu-logo {
+  margin-right: 3%;
+}
+
+.adress {
+  margin-left: 3%;
+}
+
+/* About Us */
+.horizontal-line {
+  width: 200px;
+  margin-top: 1%;
+}
+
+.about-us {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.margin-top-big {
+  margin-top: 5%;
+}
+
+.family-photo {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.about-us-content {
+  font-size: 1.25rem;
+}
+
+/* Past Activities */
+.past-activities {
+  width: 100%;
+  margin: 0;
+}
+
+.activities {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.past-content {
+  margin-top: 0;
+}
+
+.act {
+  width: 40%;
+  font-size: 1.25rem;
+}
+
+.past-first-activity {
+  width: 40%;
+  min-height: 300px;
+  background: url("https://monbien-events.com/wp-content/uploads/2018/03/conference_crop.jpg");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.first-activity-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.past-second-activity {
+  width: 40%;
+  min-height: 300px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREUyl4_ZFKff7UxDV8HlwuMtoVE_UqMxLljuhd3Ycm5QrvTOVNjYIhBMQaaqa2wxCSkIM&usqp=CAU");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+/* Contact */
+.contact-line {
+  margin-bottom: 2%;
+}
+
+/* toggle for speakers */
+.speakers-display {
+  display: flex;
+}

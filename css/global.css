@@ -1,0 +1,140 @@
+/* Text */
+
+.text-center {
+  text-align: center;
+}
+
+@font-face {
+  /* Cocogoose Bold */
+  font-family: "cocogoose";
+  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
+}
+
+@font-face {
+  /* Cocogoose Light */
+  font-family: "cocogoose-light";
+  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
+}
+
+.heading-small {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.heading-big {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+/* Text Colors */
+.special-color {
+  background: url("https://wallpaperaccess.com/full/1818031.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-black {
+  color: #272a31;
+}
+
+.dark-orange {
+  color: #ec5242;
+}
+
+.light-grey {
+  color: #d3d3d3;
+}
+
+/* Background Colors */
+
+.bg-light-black {
+  background: #272a31;
+}
+
+.bg-dark-orange {
+  background: #ec5242;
+}
+
+.bg-light-grey {
+  background: rgba(250, 247, 247, 0.829);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding: 5%;
+}
+
+/* Layouts */
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Buttons */
+.btn {
+  width: 300px;
+  height: 60px;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  opacity: 0.9;
+}
+
+.full-horizontal-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}
+
+/* Margins */
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-top-big {
+  margin-top: 10%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0;
+}
