@@ -70,7 +70,7 @@ const speakers = [
       speakerContainer.appendChild(speakerImage);
   
       const speakerInfos = document.createElement('div');
-      speakerInfos.className = 'speaker-info';
+      speakerInfos.className = 'speaker-infos';
       speakerContainer.appendChild(speakerInfos);
   
       const speakerName = document.createElement('h3');
