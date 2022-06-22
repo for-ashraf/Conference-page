@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -405,7 +405,7 @@ color: #f1f1f1;
   justify-content: space-around;
   }
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* html {
   display: flex;
   flex-direction: column;
@@ -739,7 +739,7 @@ color: #f1f1f1;
   }
   }
 
-  /* Text Styles and Fonts*/
+/* Text Styles and Fonts */
   .text-center {
   text-align: center;
   }
@@ -808,10 +808,10 @@ color: #f1f1f1;
   }
 
   /* Container */
-  .pryContainer {
+.pryContainer {
   width: 100%;
   padding: 5%;
-  }
+}
 
   /* Layouts */
 
