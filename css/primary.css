@@ -37,8 +37,8 @@ header {
   width: 100%;
 }
 
-/* Upperside */
-.upperside {
+/* topHeader */
+.topHeader {
   display: none;
 }
 
@@ -122,26 +122,26 @@ nav h2 {
   font-size: 4rem;
 }
 
-.desktop-navbar {
+.pryNavBar {
   display: none;
 }
 
 /* First Section */
-.container {
+.pryContainer {
   width: 100%;
   position: relative;
 }
 
-.main-content-headers h2 {
+.pryContainerContent-headers h2 {
   width: 100%;
   margin: 3% 0;
 }
 
-.main-content-headers h1 {
+.pryContainerContent-headers h1 {
   width: 100%;
 }
 
-.container h1 {
+.pryContainer h1 {
   font-family: "cocogoose", sans-serif;
   font-size: 1.85rem;
   letter-spacing: 1.5px;
@@ -155,18 +155,18 @@ nav h2 {
   margin-bottom: 15%;
 }
 
-.header-content {
+.headerContent {
   border: 1px solid #d3d3d3;
   background-color: #fff;
   padding: 3%;
   line-height: 1.5rem;
 }
 
-.main-content .text-center h1 {
+.pryContainerContent .text-center h1 {
   margin-top: 5%;
 }
 
-.main-content-headers {
+.pryContainerContent-headers {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,7 +193,7 @@ nav h2 {
 }
 
 /* First Section Info */
-.infos {
+.info {
   margin: 10% 0;
 }
 
@@ -390,7 +390,7 @@ nav h2 {
   margin: 5% 0;
 }
 
-.contact {
+.contacts {
   margin-top: 5%;
 }
 
@@ -399,7 +399,7 @@ nav h2 {
   height: 80px;
 }
 
-.contact-details {
+.contacts-details {
   width: 100%;
   margin: 5% 0;
   justify-content: space-around;
@@ -417,8 +417,8 @@ nav h2 {
     max-width: 1400px;
   }
 
-  /* Upperside */
-  .upperside {
+  /* topHeader */
+  .topHeader {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -428,7 +428,7 @@ nav h2 {
     opacity: 0.9;
   }
 
-  .upperside-ul {
+  .topHeader-ul {
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -436,7 +436,7 @@ nav h2 {
     padding-right: 5%;
   }
 
-  .upperside-item:hover {
+  .topHeader-item:hover {
     opacity: 0.7;
   }
 
@@ -453,7 +453,7 @@ nav h2 {
     display: none;
   }
 
-  .desktop-navbar {
+  .pryNavBar {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -475,12 +475,12 @@ nav h2 {
     font-weight: 600;
   }
 
-  .desktop-navbar ul li {
+  .pryNavBar ul li {
     margin: 0 1%;
     white-space: nowrap;
   }
 
-  .desktop-navbar ul li:hover {
+  .pryNavBar ul li:hover {
     opacity: 0.7;
   }
 
@@ -495,15 +495,15 @@ nav h2 {
   }
 
   /* First Section */
-  .main-content-headers {
+  .pryContainerContent-headers {
     width: 80%;
   }
 
-  .main-content-headers h2 {
+  .pryContainerContent-headers h2 {
     font-size: 2.5rem;
   }
 
-  .main-content-headers h1 {
+  .pryContainerContent-headers h1 {
     font-size: 3.5rem;
   }
 
@@ -512,19 +512,19 @@ nav h2 {
     margin-bottom: 5%;
   }
 
-  .main-content {
+  .pryContainerContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .header-content {
+  .headerContent {
     width: 80%;
     font-size: 1.25rem;
   }
 
-  .infos {
+  .info {
     margin-top: 5%;
     margin-bottom: 0;
   }
@@ -630,12 +630,12 @@ nav h2 {
     margin-top: 0;
   }
 
-  .contact-details {
+  .contacts-details {
     justify-content: center;
     margin: 0;
   }
 
-  .contact {
+  .contacts {
     margin-top: 0;
   }
 
@@ -652,7 +652,7 @@ nav h2 {
   }
 
   /* About Us */
-  .horizontal-line {
+  .myLine {
     width: 200px;
     margin-top: 1%;
   }
@@ -730,7 +730,7 @@ nav h2 {
   }
 
   /* Contact */
-  .contact-line {
+  .contacts-line {
     margin-bottom: 2%;
   }
 
@@ -774,7 +774,7 @@ nav h2 {
 }
 
 /* Text Colors */
-.special-color {
+.myColor {
   background: url("https://wallpaperaccess.com/full/1818031.jpg");
   background-position: center;
   background-size: cover;
@@ -811,13 +811,13 @@ nav h2 {
 
 /* Layouts */
 
-.flex-row-center {
+.flx-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex-column-center {
+.flx-col-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -839,7 +839,7 @@ nav h2 {
 }
 
 /* Horizontal Line */
-.horizontal-line {
+.myLine {
   border-width: 0;
   height: 2px;
   background-color: #ec5242;
