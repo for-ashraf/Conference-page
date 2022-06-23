@@ -155,7 +155,7 @@ nav h2 {
   margin-bottom: 15%;
 }
 
-.headerContent {
+.headerContents {
   border: 1px solid #d3d3d3;
   background-color: #fff;
   padding: 3%;
@@ -199,7 +199,7 @@ nav h2 {
 
 /* Main Program */
 .main-program {
-  background: url("../utils/images/mosaic.png");
+  background: url("../images/mosaic.png");
   width: 100%;
   height: 100%;
   padding: 5%;
@@ -519,7 +519,7 @@ nav h2 {
     align-items: center;
   }
 
-  .headerContent {
+  .headerContents {
     width: 80%;
     font-size: 1.25rem;
   }
@@ -749,13 +749,13 @@ nav h2 {
 @font-face {
   /* Cocogoose Bold */
   font-family: "cocogoose";
-  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
+  src: url("../fonts/cocogoose/Cocogoose.ttf");
 }
 
 @font-face {
   /* Cocogoose Light */
   font-family: "cocogoose-light";
-  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
+  src: url("../fonts/cocogoose/Cocogoose-light.ttf");
 }
 
 .heading-small {
