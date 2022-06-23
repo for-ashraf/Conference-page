@@ -60,7 +60,7 @@ const speakersButton = document.querySelector('.speakers-btn');
 function loadSpeakers() {
   speakers.forEach((speaker, index) => {
     const speakerContainer = document.createElement('article');
-    speakerContainer.className = index > 1 ? 'flx-row-center speakers-display' : 'flx-row-center';
+    speakerContainer.className = index > 1 ? '.flx-row-center speakers-display' : 'flx-row-center';
     featuredSpeakers.appendChild(speakerContainer);
 
     const speakerImage = document.createElement('img');
