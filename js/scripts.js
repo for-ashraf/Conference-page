@@ -127,5 +127,3 @@ function closeNav() {
 
 openNav();
 closeNav();
-
-
