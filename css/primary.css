@@ -67,13 +67,6 @@
   background: rgba(250, 247, 247, 0.829);
 }
 
-.pryContainer {
-  width: 100%;
-  padding: 5%;
-}
-
-/* Layouts */
-
 .flx-row-center {
   display: flex;
   justify-content: center;
