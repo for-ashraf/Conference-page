@@ -10,15 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap" rel="stylesheet" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/primary.css" />
-
 </head>
   <body class="flx-col-center">
     <div class="topHeader">
       <ul class="topHeader-ul">
         <li><i class="fab fa-facebook-f light-grey topHeader-item"></i></li>
         <li><i class="fab fa-twitter light-grey topHeader-item"></i></li>
-        <li><a href="#" class="signout light-grey topHeader-item">Logout</a></li>
-        <li><a href="#" class="mPage light-grey topHeader-item">My page</a></li>
+        <li><a href="#" class="logout light-grey topHeader-item">Logout</a></li>
+        <li><a href="#" class="mypage light-grey topHeader-item">Mypage</a></li>
         <li><a href="#" class="Urdu light-grey topHeader-item">Urdu</a></li>
       </ul>
     </div>
@@ -28,7 +27,7 @@
         <div class="light-black hamburger-menu-display" onclick="openNav()">
           <i class="fas fa-bars hamburger-menu"></i>
         </div>
-        <div id="myNavBar" class="overlay bg-light-black">
+        <div id="myNav" class="overlay bg-light-black">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a
           >
@@ -42,11 +41,7 @@
           </div>
         </div>
         <div class="pryNavBar">
-          <a href="./index.html" class="main-logo"
-            ><img
-              src="./images/logo.png"
-              alt="main logo"
-              class="main-logo-img"
+          <a href="./index.html" class="main-logo"><img src="./images/logo.png" alt="main logo" class="main-logo-img"
           /></a>
           <ul class="navbar-ul">
             <li><a href="./about.html" class="desktop-nav-link">About</a></li>
@@ -63,18 +58,14 @@
       <div class="pryContainer">
         <img
           src="./images/line-decoration.png" alt="Background image" class="bg-header-image" />
-        <img
-          src="./images/shadding-gradient.png"
-          alt="Background image"
-          class="bg-header-image-rotate"
-        />
+        <img src="./images/design-pattern.png" alt="Background image" class="bg-header-image-rotate" />
         <div class="pryContainerContent">
-          <div class="pryContainerContent-headers">
+          <div class="pryContainerHeader">
             <h2 class="myColor">"Hello! Sharing world"</h2>
             <h1 class="myColor">
-              AIOU ENTREPRENEURSHIP & TECHNOLOGY CONFERENCE
+              YTU ENTREPRENEURSHIP & TECHNOLOGY CONFERENCE
             </h1>
-            <h3 class="year special-color heading-big">2022</h3>
+            <h3 class="year special-color heading-big">2021</h3>
           </div>
           <div class="headerContents text-center">
             <p>
@@ -84,25 +75,24 @@
               reprehenderit labore blanditiis temporibus modi.
             </p>
           </div>
-          <div class="info">
+          <div class="infos">
             <h3 class="date light-black heading-medium">
-              2022.07.19(Tue) ~ 21(Thu)
+              2021.06.28(MON) ~ 30(WED)
             </h3>
             <p class="location light-black heading-small">
-              @Conference Hall, Main Campus, AIOU Islamabad
+              @Hall of Yildiz Technical University, Istanbul, Turkey
             </p>
           </div>
         </div>
       </div>
     </header>
-
     <section class="main-program flx-col-center" id="main-program">
       <h2 class="main-program-header light-grey heading-medium">
         Main Program
       </h2>
       <hr class="myLine text-center" />
       <div class="program-items">
-        <article class="program-item flx-row-center bg-light-black">
+        <article class="program-item flex-row-center bg-light-black">
           <div class="item item-icon heading-big">
             <i class="fas fa-book-reader light-grey"></i>
           </div>
@@ -112,7 +102,7 @@
             libero sit in necessitatibus, ad sequi?
           </p>
         </article>
-        <article class="program-item flx-row-center bg-light-black">
+        <article class="program-item flex-row-center bg-light-black">
           <div class="item item-icon heading-big">
             <i class="fab fa-accusoft light-grey"></i>
           </div>
@@ -122,7 +112,7 @@
             libero sit in necessitatibus, ad sequi?
           </p>
         </article>
-        <article class="program-item flx-row-center bg-light-black">
+        <article class="program-item flex-row-center bg-light-black">
           <div class="item item-icon heading-big">
             <i class="far fa-comments light-grey"></i>
           </div>
@@ -132,7 +122,7 @@
             libero sit in necessitatibus, ad sequi?
           </p>
         </article>
-        <article class="program-item flx-row-center bg-light-black">
+        <article class="program-item flex-row-center bg-light-black">
           <div class="item item-icon heading-big">
             <i class="fas fa-code-branch light-grey"></i>
           </div>
@@ -142,7 +132,7 @@
             libero sit in necessitatibus, ad sequi?
           </p>
         </article>
-        <article class="program-item flx-row-center bg-light-black">
+        <article class="program-item flex-row-center bg-light-black">
           <div class="item item-icon heading-big">
             <i class="fas fa-chart-line light-grey"></i>
           </div>
@@ -153,25 +143,30 @@
           </p>
         </article>
       </div>
-      <button type="button" name="join-us" class="btn main-btn"> Join the Program </button>
+      <button type="button" name="join-us" class="btn main-btn">
+        Join the Program
+      </button>
       <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
     </section>
-
     <section class="featured-speakers flx-col-center" id="speakers">
       <h2 class="featured-speakers-header light-black heading-medium">
         Featured Speakers
       </h2>
       <hr class="myLine text-center" />
       <div class="speakers-list"></div>
-      <button type="button" name="join-us" class="btn speakers-btn" onclick="toggleSpeakers()" >
+      <button
+        type="button"
+        name="join-us"
+        class="btn speakers-btn"
+        onclick="toggleSpeakers()"
+      >
         MORE <i class="fas fa-angle-down down-arrow"></i>
       </button>
     </section>
-
     <section class="partners bg-light-black flx-col-center" id="partners">
       <h2 class="partners-heading light-grey heading-medium">Partners</h2>
       <hr class="myLine text-center" />
-      <ul class="partners-list flx-row-center">
+      <ul class="partners-list flex-row-center">
         <li class="list-item-container mozilla">
           <img
             class="list-item"
@@ -209,22 +204,26 @@
         </li>
       </ul>
     </section>
-
     <footer class="footer flx-col-center" id="contacts">
-        <h3 class="contacts light-black heading-medium">Contact</h3>
-        <hr class="myLine text-center" />
-        <div class="flx-row-center contact-details">
-          <img src="./images/conf-logo.jpg" alt="AIOU Conference logo" class="aiou-logo" />
-          <div class="adress">
-            <p class="contact-number"><b>Contact:</b> +92(051)4252080</p>
-            <p class="adress-details">
-              <b>Address:</b> Main Campus <br />
-              Allama Iqbal Open University<br />
-              H-8/4, Islamabad
-            </p>
-          </div>
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="myLine text-center" />
+      <div class="flex-row-center contact-details">
+        <img
+          src="./images/ytu-logo-eng.jpg"
+          alt="yildiz technical university logo"
+          class="ytu-logo"
+        />
+        <div class="adress">
+          <p class="phone-number"><b>Phone:</b> +90(535)2906493</p>
+          <p class="adress-details">
+            <b>Address:</b> Davutpasa Mah. <br />
+            Davutpasa Caddesi<br />
+            34220 Esenler- Istanbul
+          </p>
         </div>
-        <p class="rights"><i class="far fa-copyright"></i>2022. All rights reserved</p>
-      </footer>
-      <script src="./js/scripts.js"></script>
-    </body>
+      </div>
+      <p class="rights"><i class="far fa-copyright"></i>2021. All rights reserved</p>
+    </footer>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>

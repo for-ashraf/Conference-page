@@ -37,8 +37,8 @@ header {
   width: 100%;
 }
 
-/* topHeader */
-.topHeader {
+/* Upperside */
+.upperside {
   display: none;
 }
 
@@ -122,26 +122,26 @@ nav h2 {
   font-size: 4rem;
 }
 
-.pryNavBar {
+.desktop-navbar {
   display: none;
 }
 
 /* First Section */
-.pryContainer {
+.container {
   width: 100%;
   position: relative;
 }
 
-.pryContainerContent-headers h2 {
+.main-content-headers h2 {
   width: 100%;
   margin: 3% 0;
 }
 
-.pryContainerContent-headers h1 {
+.main-content-headers h1 {
   width: 100%;
 }
 
-.pryContainer h1 {
+.container h1 {
   font-family: "cocogoose", sans-serif;
   font-size: 1.85rem;
   letter-spacing: 1.5px;
@@ -155,18 +155,18 @@ nav h2 {
   margin-bottom: 15%;
 }
 
-.headerContents {
+.header-content {
   border: 1px solid #d3d3d3;
   background-color: #fff;
   padding: 3%;
   line-height: 1.5rem;
 }
 
-.pryContainerContent .text-center h1 {
+.main-content .text-center h1 {
   margin-top: 5%;
 }
 
-.pryContainerContent-headers {
+.main-content-headers {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,13 +193,13 @@ nav h2 {
 }
 
 /* First Section Info */
-.info {
+.infos {
   margin: 10% 0;
 }
 
 /* Main Program */
 .main-program {
-  background: url("../images/mosaic.png");
+  background: url("../utils/images/mosaic.png");
   width: 100%;
   height: 100%;
   padding: 5%;
@@ -390,7 +390,7 @@ nav h2 {
   margin: 5% 0;
 }
 
-.contacts {
+.contact {
   margin-top: 5%;
 }
 
@@ -399,7 +399,7 @@ nav h2 {
   height: 80px;
 }
 
-.contacts-details {
+.contact-details {
   width: 100%;
   margin: 5% 0;
   justify-content: space-around;
@@ -417,8 +417,8 @@ nav h2 {
     max-width: 1400px;
   }
 
-  /* topHeader */
-  .topHeader {
+  /* Upperside */
+  .upperside {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -428,7 +428,7 @@ nav h2 {
     opacity: 0.9;
   }
 
-  .topHeader-ul {
+  .upperside-ul {
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -436,7 +436,7 @@ nav h2 {
     padding-right: 5%;
   }
 
-  .topHeader-item:hover {
+  .upperside-item:hover {
     opacity: 0.7;
   }
 
@@ -453,7 +453,7 @@ nav h2 {
     display: none;
   }
 
-  .pryNavBar {
+  .desktop-navbar {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -475,12 +475,12 @@ nav h2 {
     font-weight: 600;
   }
 
-  .pryNavBar ul li {
+  .desktop-navbar ul li {
     margin: 0 1%;
     white-space: nowrap;
   }
 
-  .pryNavBar ul li:hover {
+  .desktop-navbar ul li:hover {
     opacity: 0.7;
   }
 
@@ -495,15 +495,15 @@ nav h2 {
   }
 
   /* First Section */
-  .pryContainerContent-headers {
+  .main-content-headers {
     width: 80%;
   }
 
-  .pryContainerContent-headers h2 {
+  .main-content-headers h2 {
     font-size: 2.5rem;
   }
 
-  .pryContainerContent-headers h1 {
+  .main-content-headers h1 {
     font-size: 3.5rem;
   }
 
@@ -512,19 +512,19 @@ nav h2 {
     margin-bottom: 5%;
   }
 
-  .pryContainerContent {
+  .main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .headerContents {
+  .header-content {
     width: 80%;
     font-size: 1.25rem;
   }
 
-  .info {
+  .infos {
     margin-top: 5%;
     margin-bottom: 0;
   }
@@ -630,12 +630,12 @@ nav h2 {
     margin-top: 0;
   }
 
-  .contacts-details {
+  .contact-details {
     justify-content: center;
     margin: 0;
   }
 
-  .contacts {
+  .contact {
     margin-top: 0;
   }
 
@@ -652,7 +652,7 @@ nav h2 {
   }
 
   /* About Us */
-  .myLine {
+  .horizontal-line {
     width: 200px;
     margin-top: 1%;
   }
@@ -692,12 +692,12 @@ nav h2 {
   .past-content {
     margin-top: 0;
   }
-
+ 
   .act {
     width: 40%;
     font-size: 1.25rem;
   }
-
+ 
   .past-first-activity {
     width: 40%;
     min-height: 300px;
@@ -730,7 +730,7 @@ nav h2 {
   }
 
   /* Contact */
-  .contacts-line {
+  .contact-line {
     margin-bottom: 2%;
   }
 
@@ -749,13 +749,13 @@ nav h2 {
 @font-face {
   /* Cocogoose Bold */
   font-family: "cocogoose";
-  src: url("../fonts/cocogoose/Cocogoose.ttf");
+  src: url("../utils/fonts/cocogoose/Cocogoose.ttf");
 }
 
 @font-face {
   /* Cocogoose Light */
   font-family: "cocogoose-light";
-  src: url("../fonts/cocogoose/Cocogoose-light.ttf");
+  src: url("../utils/fonts/cocogoose/Cocogoose-light.ttf");
 }
 
 .heading-small {
@@ -774,7 +774,7 @@ nav h2 {
 }
 
 /* Text Colors */
-.myColor {
+.special-color {
   background: url("https://wallpaperaccess.com/full/1818031.jpg");
   background-position: center;
   background-size: cover;
@@ -809,15 +809,21 @@ nav h2 {
   background: rgba(250, 247, 247, 0.829);
 }
 
+/* Container */
+.container {
+  width: 100%;
+  padding: 5%;
+}
+
 /* Layouts */
 
-.flx-row-center {
+.flex-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flx-col-center {
+.flex-column-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -839,7 +845,7 @@ nav h2 {
 }
 
 /* Horizontal Line */
-.myLine {
+.horizontal-line {
   border-width: 0;
   height: 2px;
   background-color: #ec5242;
