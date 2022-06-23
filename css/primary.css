@@ -809,12 +809,6 @@ nav h2 {
   background: rgba(250, 247, 247, 0.829);
 }
 
-/* Container */
-.container {
-  width: 100%;
-  padding: 5%;
-}
-
 /* Layouts */
 
 .flex-row-center {
