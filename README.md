@@ -17,11 +17,11 @@ I would like to appreciate Cindy Shin (https://www.behance.net/adagio07) for the
 
 ## Live Demo
 
-[Live Demo Link]
+https://for-ashraf.github.io/Conference-page/
 
 ## Presentation of Project
 
-[Loom Video Link]
+https://www.loom.com/share/f5f47479af9e422997a176ee17deecdf
 
 ## Project Description
 

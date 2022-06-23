@@ -1,228 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrepreneurship & Technology Conference at AIOU Islamabad</title>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap" rel="stylesheet" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="css/primary.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrepreneurship & Technology Conference at AIOU Islamabad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/primary.css" />
 </head>
-  <body class="flx-col-center">
-    <div class="topHeader">
-      <ul class="topHeader-ul">
-        <li><i class="fab fa-facebook-f light-grey topHeader-item"></i></li>
-        <li><i class="fab fa-twitter light-grey topHeader-item"></i></li>
-        <li><a href="#" class="logout light-grey topHeader-item">Logout</a></li>
-        <li><a href="#" class="mypage light-grey topHeader-item">Mypage</a></li>
-        <li><a href="#" class="korean light-grey topHeader-item">Korean</a></li>
-      </ul>
-    </div>
-    <header class="bg-light-grey flx-col-center">
-      <nav>
-        <div class="nav-bg"></div>
-        <div class="light-black hamburger-menu-display" onclick="openNav()">
-          <i class="fas fa-bars hamburger-menu"></i>
+
+<body class="flx-col-center">
+  <div class="topHeader">
+    <ul class="topHeader-ul">
+      <li><i class="fab fa-facebook-f light-grey topHeader-item"></i></li>
+      <li><i class="fab fa-twitter light-grey topHeader-item"></i></li>
+      <li><a href="#" class="logout light-grey topHeader-item">Logout</a></li>
+      <li><a href="#" class="mypage light-grey topHeader-item">Mypage</a></li>
+      <li><a href="#" class="korean light-grey topHeader-item">Korean</a></li>
+    </ul>
+  </div>
+  <header class="bg-light-grey flx-col-center">
+    <nav>
+      <div class="nav-bg"></div>
+      <div class="light-black hamburger-menu-display" onclick="openNav()">
+        <i class="fas fa-bars hamburger-menu"></i>
+      </div>
+      <div id="myNavBar" class="overlay bg-light-black">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="./about.html">About</a>
+          <a href="#main-program" onclick="closeNav()">Main Program</a>
+          <a href="#speakers" onclick="closeNav()">Speakers</a>
+          <a href="#partners" onclick="closeNav()">Partners</a>
+          <a href="#" onclick="closeNav()">Join the Program</a>
+          <a href="#contact" onclick="closeNav()">Contact</a>
         </div>
-        <div id="myNavBar" class="overlay bg-light-black">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
-          <div class="overlay-content">
-            <a href="./about.html">About</a>
-            <a href="#main-program" onclick="closeNav()">Main Program</a>
-            <a href="#speakers" onclick="closeNav()">Speakers</a>
-            <a href="#partners" onclick="closeNav()">Partners</a>
-            <a href="#" onclick="closeNav()">Join the Program</a>
-            <a href="#contact" onclick="closeNav()">Contact</a>
-          </div>
-        </div>
-        <div class="pryNavBar">
-          <a href="./index.html" class="main-logo"
-            ><img
-              src="./images/logo.png"
-              alt="main logo"
-              class="main-logo-img"
-          /></a>
-          <ul class="navbar-ul">
-            <li><a href="./about.html" class="desktop-nav-link">About</a></li>
-            <li>
-              <a href="#main-program" class="desktop-nav-link">Main Program</a>
-            </li>
-            <li><a href="#speakepryContainerpryContainerContent
+      </div>
+      <div class="pryNavBar">
+        <a href="./index.html" class="main-logo"><img src="./images/logo.png" alt="main logo"
+            class="main-logo-img" /></a>
+        <ul class="navbar-ul">
+          <li><a href="./about.html" class="desktop-nav-link">About</a></li>
+          <li>
+            <a href="#main-program" class="desktop-nav-link">Main Program</a>
+          </li>
+          <li><a href="#speakers
 rs" class="desktop-nav-link">Speakers</a></li>
-            <li><a href="#partners" class="desktop-nav-link">Partners</a></li>
-            <li><a href="#" class="desktop-nav-link">Join the Program</a></li>
-            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="pryContainer">
-        <img src="./images/line-decoration.png" alt="Background image" class="bg-header-image" />
-        <img src="./images/design-pattern.png" alt="Background image" class="bg-header-image-rotate" />
-        <div class="pryContainerContent">
-          <div class="pryContainerHeader">
-            <h2 class="myColor">"Hello! Sharing world"</h2>
-            <h1 class="myColor">
-              AIOU ENTREPRENEURSHIP & TECHNOLOGY CONFERENCE
-            </h1>
-            <h3 class="year myColor heading-big">2022</h3>
-          </div>
-          <div class="headerContents text-center">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
-              illo! Rem cupiditate nemo minima voluptate laboriosam deserunt,
-              dignissimos quia incidunt id pariatur odit laborum sunt
-              reprehenderit labore blanditiis temporibus modi.
-            </p>
-          </div>
-          <div class="infos">
-            <h3 class="date light-black heading-medium">
-              2022.07.19(Tue) ~ 21(Thu)
-            </h3>
-            <p class="location light-black heading-small">
-              @Conference Hall, Main Campus, AIOU Islamabad
-            </p>
-          </div>
-        </div>
+          <li><a href="#partners" class="desktop-nav-link">Partners</a></li>
+          <li><a href="#" class="desktop-nav-link">Join the Program</a></li>
+          <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+        </ul>
       </div>
-    </header>
-    <section class="main-program flx-col-center" id="main-program">
-      <h2 class="main-program-header light-grey heading-medium">
-        Main Program
-      </h2>
-      <hr class="myLine text-center" />
-      <div class="program-items">
-        <article class="program-item flx-row-center bg-light-black">
-          <div class="item item-icon heading-big">
-            <i class="fas fa-book-reader light-grey"></i>
-          </div>
-          <h3 class="item item-header dark-orange">Lecture</h3>
-          <p class="item item-content light-grey">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            libero sit in necessitatibus, ad sequi?
+    </nav>
+    <div class="pryContainer">
+      <img src="./images/line-decoration.png" alt="Background image" class="bg-header-image" />
+      <img src="./images/design-pattern.png" alt="Background image" class="bg-header-image-rotate" />
+      <div class="pryContainerContent">
+        <div class="pryContainerHeader">
+          <h2 class="myColor">"Hello! Sharing world"</h2>
+          <h1 class="myColor">
+            AIOU ENTREPRENEURSHIP & TECHNOLOGY CONFERENCE
+          </h1>
+          <h3 class="year myColor heading-big">2022</h3>
+        </div>
+        <div class="headerContents text-center">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
+            illo! Rem cupiditate nemo minima voluptate laboriosam deserunt,
+            dignissimos quia incidunt id pariatur odit laborum sunt
+            reprehenderit labore blanditiis temporibus modi.
           </p>
-        </article>
-        <article class="program-item flx-row-center bg-light-black">
-          <div class="item item-icon heading-big">
-            <i class="fab fa-accusoft light-grey"></i>
-          </div>
-          <h3 class="item item-header dark-orange">Exhibition</h3>
-          <p class="item item-content light-grey">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            libero sit in necessitatibus, ad sequi?
-          </p>
-        </article>
-        <article class="program-item flx-row-center bg-light-black">
-          <div class="item item-icon heading-big">
-            <i class="far fa-comments light-grey"></i>
-          </div>
-          <h3 class="item item-header dark-orange">Forum</h3>
-          <p class="item item-content light-grey">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            libero sit in necessitatibus, ad sequi?
-          </p>
-        </article>
-        <article class="program-item flx-row-center bg-light-black">
-          <div class="item item-icon heading-big">
-            <i class="fas fa-code-branch light-grey"></i>
-          </div>
-          <h3 class="item item-header dark-orange">Workshop</h3>
-          <p class="item item-content light-grey">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            libero sit in necessitatibus, ad sequi?
-          </p>
-        </article>
-        <article class="program-item flx-row-center bg-light-black">
-          <div class="item item-icon heading-big">
-            <i class="fas fa-chart-line light-grey"></i>
-          </div>
-          <h3 class="item item-header dark-orange">Ignite</h3>
-          <p class="item item-content light-grey">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            libero sit in necessitatibus, ad sequi?
-          </p>
-        </article>
-      </div>
-      <button type="button" name="join-us" class="btn main-btn">
-        Join the Program
-      </button>
-      <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
-    </section>
-    <section class="featured-speakers flx-col-center" id="speakers">
-      <h2 class="featured-speakers-header light-black heading-medium">
-        Featured Speakers
-      </h2>
-      <hr class="myLine text-center" />
-      <div class="speakers-list"></div>
-      <button
-        type="button"
-        name="join-us"
-        class="btn speakers-btn"
-        onclick="toggleSpeakers()"
-      >
-        MORE <i class="fas fa-angle-down down-arrow"></i>
-      </button>
-    </section>
-    <section class="partners bg-light-black flx-col-center" id="partners">
-      <h2 class="partners-heading light-grey heading-medium">Partners</h2>
-      <hr class="myLine text-center" />
-      <ul class="partners-list flx-row-center">
-        <li class="list-item-container mozilla">
-          <img
-            class="list-item"
-            src="./images/firefox.svg"
-            alt="mozilla"
-          />
-        </li>
-        <li class="list-item-container mozilla">
-          <img
-            class="list-item"
-            src="./images/google-g-2015.svg"
-            alt="mozilla"
-          />
-        </li>
-        <li class="list-item-container mozilla">
-          <img
-            class="list-item"
-            src="./images/facebook-3.svg"
-            alt="mozilla"
-          />
-        </li>
-        <li class="list-item-container mozilla">
-          <img
-            class="list-item"
-            src="./images/tesla-motors.svg"
-            alt="mozilla"
-          />
-        </li>
-        <li class="list-item-container mozilla">
-          <img
-            class="list-item"
-            src="./images/amazon-lightsail.svg"
-            alt="mozilla"
-          />
-        </li>
-      </ul>
-    </section>
-    <footer class="footer flx-col-center" id="contact">
-      <h3 class="contact light-black heading-medium">Contact</h3>
-      <hr class="myLine text-center" />
-      <div class="flx-row-center contact-details">
-        <img src="./images/conf-logo.jpg" alt="AIOU Conference logo" class="aiou-logo" />
-        <div class="adress">
-          <p class="contactNumber"><b>Phone:</b>  +92(051)4252080</p>
-          <p class="adress-details">
-            <b>Address:</b> Main Campus <br />
-              Allama Iqbal Open University<br />
-              H-8/4, Islamabad
+        </div>
+        <div class="infos">
+          <h3 class="date light-black heading-medium">
+            2022.07.19(Tue) ~ 21(Thu)
+          </h3>
+          <p class="location light-black heading-small">
+            @Conference Hall, Main Campus, AIOU Islamabad
           </p>
         </div>
       </div>
-      <p class="rights"><i class="far fa-copyright"></i>2022. All rights reserved</p>
-    </footer>
-    <script src="./js/scripts.js"></script>
-  </body>
+    </div>
+  </header>
+  
+  <section class="main-program flx-col-center" id="main-program">
+    <h2 class="main-program-header light-grey heading-medium">
+      Main Program
+    </h2>
+    <hr class="myLine text-center" />
+    <div class="program-items">
+      <article class="program-item flx-row-center bg-light-black">
+        <div class="item item-icon heading-big">
+          <i class="fas fa-book-reader light-grey"></i>
+        </div>
+        <h3 class="item item-header dark-orange">Lecture</h3>
+        <p class="item item-content light-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          libero sit in necessitatibus, ad sequi?
+        </p>
+      </article>
+      <article class="program-item flx-row-center bg-light-black">
+        <div class="item item-icon heading-big">
+          <i class="fab fa-accusoft light-grey"></i>
+        </div>
+        <h3 class="item item-header dark-orange">Exhibition</h3>
+        <p class="item item-content light-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          libero sit in necessitatibus, ad sequi?
+        </p>
+      </article>
+      <article class="program-item flx-row-center bg-light-black">
+        <div class="item item-icon heading-big">
+          <i class="far fa-comments light-grey"></i>
+        </div>
+        <h3 class="item item-header dark-orange">Forum</h3>
+        <p class="item item-content light-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          libero sit in necessitatibus, ad sequi?
+        </p>
+      </article>
+      <article class="program-item flx-row-center bg-light-black">
+        <div class="item item-icon heading-big">
+          <i class="fas fa-code-branch light-grey"></i>
+        </div>
+        <h3 class="item item-header dark-orange">Workshop</h3>
+        <p class="item item-content light-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          libero sit in necessitatibus, ad sequi?
+        </p>
+      </article>
+      <article class="program-item flx-row-center bg-light-black">
+        <div class="item item-icon heading-big">
+          <i class="fas fa-chart-line light-grey"></i>
+        </div>
+        <h3 class="item item-header dark-orange">Ignite</h3>
+        <p class="item item-content light-grey">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          libero sit in necessitatibus, ad sequi?
+        </p>
+      </article>
+    </div>
+    <button type="button" name="join-us" class="btn main-btn">
+      Join the Program
+    </button>
+    <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
+  </section>
+  <section class="featured-speakers flx-col-center" id="speakers">
+    <h2 class="featured-speakers-header light-black heading-medium">
+      Featured Speakers
+    </h2>
+    <hr class="myLine text-center" />
+    <div class="speakers-list"></div>
+    <button type="button" name="join-us" class="btn speakers-btn" onclick="toggleSpeakers()">
+      MORE <i class="fas fa-angle-down down-arrow"></i>
+    </button>
+  </section>
+  <section class="partners bg-light-black flx-col-center" id="partners">
+    <h2 class="partners-heading light-grey heading-medium">Partners</h2>
+    <hr class="myLine text-center" />
+    <ul class="partners-list flx-row-center">
+      <li class="list-item-container mozilla">
+        <img class="list-item" src="./images/firefox.svg" alt="mozilla" />
+      </li>
+      <li class="list-item-container mozilla">
+        <img class="list-item" src="./images/google-g-2015.svg" alt="mozilla" />
+      </li>
+      <li class="list-item-container mozilla">
+        <img class="list-item" src="./images/facebook-3.svg" alt="mozilla" />
+      </li>
+      <li class="list-item-container mozilla">
+        <img class="list-item" src="./images/tesla-motors.svg" alt="mozilla" />
+      </li>
+      <li class="list-item-container mozilla">
+        <img class="list-item" src="./images/amazon-lightsail.svg" alt="mozilla" />
+      </li>
+    </ul>
+  </section>
+  <footer class="footer flx-col-center" id="contact">
+    <h3 class="contact light-black heading-medium">Contact</h3>
+    <hr class="myLine text-center" />
+    <div class="flx-row-center contact-details">
+      <img src="./images/conf-logo.jpg" alt="AIOU Conference logo" class="aiou-logo" />
+      <div class="adress">
+        <p class="contactNumber"><b>Phone:</b> +92(051)4252080</p>
+        <p class="adress-details">
+          <b>Address:</b> Main Campus <br />
+          Allama Iqbal Open University<br />
+          H-8/4, Islamabad
+        </p>
+      </div>
+    </div>
+    <p class="rights"><i class="far fa-copyright"></i>2022. All rights reserved</p>
+  </footer>
+  <script src="./js/scripts.js"></script>
+</body>
+
 </html>
