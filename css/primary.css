@@ -692,12 +692,12 @@ nav h2 {
   .past-content {
     margin-top: 0;
   }
- 
+
   .act {
     width: 40%;
     font-size: 1.25rem;
   }
- 
+
   .past-first-activity {
     width: 40%;
     min-height: 300px;
@@ -807,12 +807,6 @@ nav h2 {
 
 .bg-light-grey {
   background: rgba(250, 247, 247, 0.829);
-}
-
-/* pryContainer */
-.pryContainer {
-  width: 100%;
-  padding: 5%;
 }
 
 /* Layouts */
